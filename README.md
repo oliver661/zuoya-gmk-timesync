@@ -71,6 +71,10 @@ Sync sequence:
 
 The protocol comes from [rusq/kbdctl](https://github.com/rusq/kbdctl), which is based on Jochen Eisinger's `zuoya_gmk87.py` (BSD license).
 
+## License
+
+[BSD 3-Clause](LICENSE). Includes the original copyright notice of Jochen Eisinger.
+
 ## Disclaimer
 
 This is an unofficial tool and is not affiliated with ZUOYA. It writes to the keyboard's configuration memory. Use it at your own risk.

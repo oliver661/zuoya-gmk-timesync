@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: BSD-3-Clause
+# Copyright 2025 Jochen Eisinger
+# Copyright 2026 oliver661 <oliver661@gmail.com>
+# Ported from rusq/kbdctl (https://github.com/rusq/kbdctl), itself based on
+# Jochen Eisinger's zuoya_gmk87.py. See LICENSE for the full license text.
 """Sync the ZUOYA GMK67-S (and GMK87, VID 0x320F / PID 0x5055) screen clock from macOS.
 
-Protocol from rusq/kbdctl (BSD, Jochen Eisinger). Requires: pip install hidapi
+Requires: pip install hidapi
 Works over USB cable, and over the 2.4GHz dongle if it exposes the same vendor interface.
 """
 import sys, time, datetime

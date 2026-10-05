@@ -71,6 +71,10 @@ GMK67-S vendor interface not found (connect via USB cable or 2.4G dongle)
 
 协议来自 [rusq/kbdctl](https://github.com/rusq/kbdctl)，该项目基于 Jochen Eisinger 的 `zuoya_gmk87.py`（BSD 许可）。
 
+## 许可证
+
+[BSD 3-Clause](LICENSE)，保留了原作者 Jochen Eisinger 的版权声明。
+
 ## 免责声明
 
 本工具为非官方工具，与 ZUOYA 没有关系。它会写入键盘的配置存储，使用风险请自行承担。
