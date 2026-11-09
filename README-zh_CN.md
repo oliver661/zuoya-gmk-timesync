@@ -12,8 +12,11 @@
 - Python 3
 - [hidapi](https://pypi.org/project/hidapi/) 的 Python 绑定
 
+把 hidapi 装进项目文件夹里的虚拟环境。Homebrew 的 Python 不允许直接 `pip3 install`（PEP 668），用虚拟环境最稳妥：
+
 ```bash
-pip3 install hidapi
+python3 -m venv .venv
+.venv/bin/pip install hidapi
 ```
 
 ## 使用方法
@@ -21,7 +24,7 @@ pip3 install hidapi
 用 USB 线连接键盘，然后运行：
 
 ```bash
-python3 timesync.py
+.venv/bin/python timesync.py
 ```
 
 成功时会输出：

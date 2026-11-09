@@ -12,8 +12,11 @@ It should also work with the **ZUOYA GMK87**, which uses the same USB IDs and pr
 - Python 3
 - [hidapi](https://pypi.org/project/hidapi/) Python bindings
 
+Install hidapi into a virtual environment inside the project folder. Homebrew's Python blocks a plain `pip3 install` (PEP 668), so this is the reliable way:
+
 ```bash
-pip3 install hidapi
+python3 -m venv .venv
+.venv/bin/pip install hidapi
 ```
 
 ## Usage
@@ -21,7 +24,7 @@ pip3 install hidapi
 Connect the keyboard with a USB cable, then run:
 
 ```bash
-python3 timesync.py
+.venv/bin/python timesync.py
 ```
 
 Expected output:
